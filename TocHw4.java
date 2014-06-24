@@ -16,7 +16,7 @@ import java.nio.charset.Charset;
 import org.json.JSONException;
 import org.json.JSONArray;
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;;
+import java.util.regex.Pattern;
 
 public class TocHw4 {
     private static String readAll(Reader rd) throws IOException {
@@ -298,3 +298,4 @@ public static void main(String[] args) throws IOException, JSONException {
     	System.out.println(LoadName[tmp[i]]+",最高成交價:"+max[i]+",最低成交價:"+min[i]);
     }
   } 
+}
